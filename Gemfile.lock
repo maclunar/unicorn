@@ -1,3 +1,9 @@
+PATH
+  remote: ../blug
+  specs:
+    blug (0.1.0)
+      rails (~> 5.0.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -154,6 +160,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  blug!
   byebug
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
